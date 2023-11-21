@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Delivrex</string>
+    <string name="facebook_app_id">1231793424190008</string>
+    <string name="fb_login_protocol_scheme">fb1231793424190008</string>
+    <string name="facebook_client_token">506c1500d2246e4068c1b2ffda275ff7</string>
+</resources>

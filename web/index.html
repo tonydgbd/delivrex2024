@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+  <meta name="google-signin-client_id" content="YOUR_GOOGLE_SIGN_IN_CLIENT_KEY">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A web app for food ordering and delivery.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="eFood">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <title>eFood</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+
+  <!-- // Other stuff -->
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1RCv5RVshPk4lDbuNixE5ZL9f_3vmhzI&callback=Function.prototype"></script>
+</head>
+
+<body>
+
+  <div class="center">
+    <img src="logo.png" alt="logo" width="250px" />
+    <br>
+    <div class="loader" style="height:100px;width:250px;text-align: center;">
+      <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 an later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyC8tX_bh1iyMp68G22kN5V5voZZXGtOPaE",
+      authDomain: "delivrex-c8c14.firebaseapp.com",
+      projectId: "delivrex-c8c14",
+      storageBucket: "delivrex-c8c14.appspot.com",
+      messagingSenderId: "67686346501",
+      appId: "1:67686346501:web:f8584736bda0a6bbf7116c",
+      measurementId: "G-JLZLCJCMB2"
+    };
+    // Initialize Firebasefi
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="main.dart.js?version=10.0" type="application/javascript"></script>
+</body>
+
+</html>

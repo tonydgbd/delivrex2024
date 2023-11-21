@@ -1,0 +1,4 @@
+enum ProductType {
+  latestProduct,
+  popularProduct,
+}

@@ -1,0 +1,150 @@
+{
+  "project_info": {
+    "project_number": "67686346501",
+    "project_id": "delivrex-c8c14",
+    "storage_bucket": "delivrex-c8c14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67686346501:android:0bfbcd603f97659df7116c",
+        "android_client_info": {
+          "package_name": "com.delivrex.delivrex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67686346501-3hl9p0okf91dghil28mvrr0sae2rmibn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.delivrex.delivrex",
+            "certificate_hash": "b6e047053859ec8524859dfe015b2b6820d5ad29"
+          }
+        },
+        {
+          "client_id": "67686346501-3qeopv7aeetjib0p4aqqbl2l3gl3mdl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.delivrex.delivrex",
+            "certificate_hash": "75d2628bde7df7dc2c68a7ed0298ef270665373b"
+          }
+        },
+        {
+          "client_id": "67686346501-7uhv3hfibbt2pnqqkq3ll7lgnhi7buqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdrbis0VNa1zh_8Mqkt2YRX73RkwyWCTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67686346501-7uhv3hfibbt2pnqqkq3ll7lgnhi7buqj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "67686346501-3jds59rellj10bc4mdl23t6p9nedsqvr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.delivrex.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67686346501:android:eebba74d52f650b6f7116c",
+        "android_client_info": {
+          "package_name": "com.example.delivrex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67686346501-3bst2e174l5ejoovan0utrfaa99m02t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delivrex",
+            "certificate_hash": "b6e047053859ec8524859dfe015b2b6820d5ad29"
+          }
+        },
+        {
+          "client_id": "67686346501-8dik7jc9rjakouak41ftpapnumgru09e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delivrex",
+            "certificate_hash": "cc4d2ca5d6757ab993c925b25fd0f7695f9b5b02"
+          }
+        },
+        {
+          "client_id": "67686346501-7uhv3hfibbt2pnqqkq3ll7lgnhi7buqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdrbis0VNa1zh_8Mqkt2YRX73RkwyWCTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67686346501-7uhv3hfibbt2pnqqkq3ll7lgnhi7buqj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "67686346501-3jds59rellj10bc4mdl23t6p9nedsqvr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.delivrex.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67686346501:android:d1b9e3eb02c3c97ff7116c",
+        "android_client_info": {
+          "package_name": "com.example.delivrexstaff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67686346501-7uhv3hfibbt2pnqqkq3ll7lgnhi7buqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdrbis0VNa1zh_8Mqkt2YRX73RkwyWCTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67686346501-7uhv3hfibbt2pnqqkq3ll7lgnhi7buqj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "67686346501-3jds59rellj10bc4mdl23t6p9nedsqvr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.delivrex.client"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
