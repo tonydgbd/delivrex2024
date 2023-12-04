@@ -931,8 +931,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                               : DateFormat('HH:mm').format(scheduleStartDate),
                         );
 
-                        if (order.paymentMethod == 'wallet_payment' ||
-                            order.paymentMethod == 'cash_on_delivery' ||
+                        if (
                             order.paymentMethod == 'orange_money' ||
                             order.paymentMethod == 'moov_money') {
                           gt.Get.to(() => PayementScreen(
@@ -943,44 +942,11 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                               callback: () async {
                                 order.placeOrder(placeOrderBody, _callback);
                               }));
-                        } else {
-                          print(order.paymentMethod);
-                          String? hostname = html.window.location.hostname;
-                          String protocol = html.window.location.protocol;
-                          String port = html.window.location.port;
-                          final String placeOrder = convert.base64Url.encode(
-                              convert.utf8.encode(
-                                  convert.jsonEncode(placeOrderBody.toJson())));
-
-                          String url =
-                              "customer_id=${Provider.of<ProfileProvider>(context, listen: false).userInfoModel!.id}"
-                              "&&callback=${AppConstants.baseUrl}${Routes.orderSuccessScreen}&&order_amount=${(widget.amount! + deliveryCharge!).toStringAsFixed(2)}";
-
-                          String webUrl =
-                              "customer_id=${Provider.of<ProfileProvider>(context, listen: false).userInfoModel!.id}"
-                              "&&callback=$protocol//$hostname${Routes.orderWebPayment}&&order_amount=${(widget.amount! + deliveryCharge).toStringAsFixed(2)}&&status=";
-
-                          String webUrlDebug =
-                              "customer_id=${Provider.of<ProfileProvider>(context, listen: false).userInfoModel!.id}"
-                              "&&callback=$protocol//$hostname:$port${Routes.orderWebPayment}&&order_amount=${(widget.amount! + deliveryCharge).toStringAsFixed(2)}&&status=";
-
-                          String tokenUrl = convert.base64Encode(convert.utf8
-                              .encode(ResponsiveHelper.isWeb()
-                                  ? (kDebugMode ? webUrlDebug : webUrl)
-                                  : url));
-                          String selectedUrl =
-                              '${AppConstants.baseUrl}/payment-mobile?token=$tokenUrl&&payment_method=${order.paymentMethod}';
-
-                          order.clearPlaceOrder().then((_) =>
-                              order.setPlaceOrder(placeOrder).then((value) {
-                                if (ResponsiveHelper.isWeb()) {
-                                  html.window.open(selectedUrl, "_self");
-                                } else {
-                                  Navigator.pushReplacementNamed(context,
-                                      Routes.getPaymentRoute(tokenUrl));
-                                }
-                              }));
-                        }
+                        } 
+                        else if(order.paymentMethod == 'wallet_payment' || order.paymentMethod == 'cash_on_delivery' ) {
+                    order.placeOrder(placeOrderBody, _callback);
+                  }
+                  
                       }
                     } else {
                       showCustomSnackBar(
