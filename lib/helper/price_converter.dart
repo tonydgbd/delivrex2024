@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/provider/splash_provider.dart';
 import 'package:provider/provider.dart';
 
 class PriceConverter {

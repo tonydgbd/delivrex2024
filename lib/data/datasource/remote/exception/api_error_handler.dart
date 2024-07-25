@@ -2,11 +2,11 @@
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_restaurant/data/model/response/base/error_response.dart';
-import 'package:flutter_restaurant/helper/app_mode.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
+import 'package:delivrex/data/model/response/base/error_response.dart';
+import 'package:delivrex/helper/app_mode.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/utill/app_constants.dart';
 
 class ApiErrorHandler {
   static dynamic getMessage(error) {

@@ -1,13 +1,13 @@
 import 'dart:convert';
-import 'package:flutter_restaurant/main.dart';
+import 'package:delivrex/main.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/body/place_order_body.dart';
-import 'package:flutter_restaurant/provider/cart_provider.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
-import 'package:flutter_restaurant/view/base/web_app_bar.dart';
+import 'package:delivrex/data/model/body/place_order_body.dart';
+import 'package:delivrex/provider/cart_provider.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
+import 'package:delivrex/view/base/web_app_bar.dart';
 import 'package:provider/provider.dart';
 
 class OrderWebPayment extends StatefulWidget {

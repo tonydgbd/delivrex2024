@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/order_model.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
+import 'package:delivrex/data/model/response/order_model.dart';
+import 'package:delivrex/provider/splash_provider.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/app_localization.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
+import 'package:delivrex/localization/app_localization.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/styles.dart';
 import 'package:provider/provider.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/config_model.dart';
-import 'package:flutter_restaurant/data/repository/splash_repo.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/view/screens/home/home_screen.dart';
+import 'package:delivrex/data/model/response/config_model.dart';
+import 'package:delivrex/data/repository/splash_repo.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/view/screens/home/home_screen.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';

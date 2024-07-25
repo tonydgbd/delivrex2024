@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
 
 class CustomStepper extends StatelessWidget {
   final bool isActive;

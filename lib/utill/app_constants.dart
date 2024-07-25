@@ -1,6 +1,6 @@
-import 'package:flutter_restaurant/data/model/response/language_model.dart';
-import 'package:flutter_restaurant/helper/app_mode.dart';
-import 'package:flutter_restaurant/utill/images.dart';
+import 'package:delivrex/data/model/response/language_model.dart';
+import 'package:delivrex/helper/app_mode.dart';
+import 'package:delivrex/utill/images.dart';
 
 class AppConstants {
   static const String appName = 'Delivrex';

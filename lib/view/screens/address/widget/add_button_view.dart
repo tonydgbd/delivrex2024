@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/on_hover.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/on_hover.dart';
 class AddButtonView extends StatelessWidget {
   final Function onTap;
   const AddButtonView({Key? key, required this.onTap}) : super(key: key);

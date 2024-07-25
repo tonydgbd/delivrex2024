@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/cart_model.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/data/repository/cart_repo.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
+import 'package:delivrex/data/model/response/cart_model.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/data/repository/cart_repo.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
 
 class CartProvider extends ChangeNotifier {
   final CartRepo? cartRepo;

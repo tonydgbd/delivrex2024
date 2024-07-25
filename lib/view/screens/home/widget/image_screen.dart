@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/view/base/custom_app_bar.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/view/base/custom_app_bar.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:photo_view/photo_view_gallery.dart';
 import 'package:provider/provider.dart';

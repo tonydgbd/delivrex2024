@@ -1,7 +1,7 @@
-name: flutter_restaurant
+name: delivrex
 description: A new Flutter restaurant application.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
-version: 3.0.1
+version: 1.0.0
 
 environment:
   sdk: ">=3.0.0"

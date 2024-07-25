@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
 
 void showCustomSnackBar(String? message, {bool isError = true, bool isToast = false}) {
   final width = MediaQuery.of(Get.context!).size.width;

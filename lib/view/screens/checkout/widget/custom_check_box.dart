@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class CustomCheckBox extends StatelessWidget {

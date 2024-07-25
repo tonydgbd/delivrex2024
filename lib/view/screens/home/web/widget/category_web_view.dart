@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/category_provider.dart';
-import 'package:flutter_restaurant/provider/localization_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/screens/home/web/widget/arrey_button.dart';
-import 'package:flutter_restaurant/view/screens/home/web/widget/category_page_view.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/category_provider.dart';
+import 'package:delivrex/provider/localization_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/screens/home/web/widget/arrey_button.dart';
+import 'package:delivrex/view/screens/home/web/widget/category_page_view.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 

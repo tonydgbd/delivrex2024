@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
-import 'package:flutter_restaurant/view/screens/home/home_screen.dart';
+import 'package:delivrex/data/datasource/remote/dio/dio_client.dart';
+import 'package:delivrex/utill/app_constants.dart';
+import 'package:delivrex/view/screens/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalizationProvider extends ChangeNotifier {

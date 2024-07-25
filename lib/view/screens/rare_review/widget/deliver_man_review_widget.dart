@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/body/review_body_model.dart';
-import 'package:flutter_restaurant/data/model/response/order_model.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/product_provider.dart';
-import 'package:flutter_restaurant/utill/color_resources.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
-import 'package:flutter_restaurant/view/base/custom_text_field.dart';
-import 'package:flutter_restaurant/view/base/footer_view.dart';
-import 'package:flutter_restaurant/view/screens/track/widget/delivery_man_widget.dart';
+import 'package:delivrex/data/model/body/review_body_model.dart';
+import 'package:delivrex/data/model/response/order_model.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/product_provider.dart';
+import 'package:delivrex/utill/color_resources.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_button.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
+import 'package:delivrex/view/base/custom_text_field.dart';
+import 'package:delivrex/view/base/footer_view.dart';
+import 'package:delivrex/view/screens/track/widget/delivery_man_widget.dart';
 import 'package:provider/provider.dart';
 
 class DeliveryManReviewWidget extends StatefulWidget {

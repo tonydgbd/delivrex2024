@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/menu_type.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/mars_menu_bar.dart';
+import 'package:delivrex/helper/menu_type.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/mars_menu_bar.dart';
 
 class MenuBarView extends StatelessWidget {
   final bool isLeft;

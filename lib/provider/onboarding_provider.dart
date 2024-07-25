@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/onboarding_model.dart';
-import 'package:flutter_restaurant/data/repository/onboarding_repo.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/onboarding_model.dart';
+import 'package:delivrex/data/repository/onboarding_repo.dart';
+import 'package:delivrex/utill/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class OnBoardingProvider with ChangeNotifier {

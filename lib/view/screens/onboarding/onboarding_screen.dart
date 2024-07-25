@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/onboarding_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/onboarding_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/custom_button.dart';
 import 'package:provider/provider.dart';
 
 class OnBoardingScreen extends StatelessWidget {

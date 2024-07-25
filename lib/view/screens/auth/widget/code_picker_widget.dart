@@ -4,9 +4,9 @@ library country_code_picker;
 import 'package:collection/collection.dart';
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/view/base/custom_directionality.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/view/base/custom_directionality.dart';
 
 class CodePickerWidget extends StatefulWidget {
   final ValueChanged<CountryCode>? onChanged;

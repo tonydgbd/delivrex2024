@@ -2,7 +2,7 @@ library image_zoom_on_move;
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
 
 class CustomZoomWidget extends StatefulWidget {
   final Widget child;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/data/repository/wishlist_repo.dart';
-import 'package:flutter_restaurant/helper/api_checker.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/data/repository/wishlist_repo.dart';
+import 'package:delivrex/helper/api_checker.dart';
 import '../view/base/custom_snackbar.dart';
 
 class WishListProvider extends ChangeNotifier {

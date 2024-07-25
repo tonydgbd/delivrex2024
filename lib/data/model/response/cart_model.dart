@@ -1,4 +1,4 @@
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
 
 class CartModel {
   double? _price;

@@ -1,9 +1,9 @@
 
-import 'package:flutter_restaurant/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_restaurant/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_restaurant/data/model/body/review_body_model.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
+import 'package:delivrex/data/datasource/remote/dio/dio_client.dart';
+import 'package:delivrex/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:delivrex/data/model/body/review_body_model.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/utill/app_constants.dart';
 
 class ProductRepo {
   final DioClient? dioClient;

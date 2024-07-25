@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/response_model.dart';
-import 'package:flutter_restaurant/data/model/response/userinfo_model.dart';
-import 'package:flutter_restaurant/data/repository/profile_repo.dart';
-import 'package:flutter_restaurant/helper/api_checker.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/response_model.dart';
+import 'package:delivrex/data/model/response/userinfo_model.dart';
+import 'package:delivrex/data/repository/profile_repo.dart';
+import 'package:delivrex/helper/api_checker.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';

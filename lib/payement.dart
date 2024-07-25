@@ -503,8 +503,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_restaurant/values/colors.dart';
-import 'package:flutter_restaurant/values/style.dart';
+import 'package:delivrex/values/colors.dart';
+import 'package:delivrex/values/style.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';

@@ -1,4 +1,4 @@
-package com.delivrex.delivrex
+package com.deli.vrex
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,16 +1,16 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/order_details_model.dart';
-import 'package:flutter_restaurant/data/model/response/order_model.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/product_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_app_bar.dart';
-import 'package:flutter_restaurant/view/base/web_app_bar.dart';
-import 'package:flutter_restaurant/view/screens/rare_review/widget/deliver_man_review_widget.dart';
-import 'package:flutter_restaurant/view/screens/rare_review/widget/product_review_widget.dart';
+import 'package:delivrex/data/model/response/order_details_model.dart';
+import 'package:delivrex/data/model/response/order_model.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/product_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_app_bar.dart';
+import 'package:delivrex/view/base/web_app_bar.dart';
+import 'package:delivrex/view/screens/rare_review/widget/deliver_man_review_widget.dart';
+import 'package:delivrex/view/screens/rare_review/widget/product_review_widget.dart';
 import 'package:provider/provider.dart';
 
 class RateReviewScreen extends StatefulWidget {

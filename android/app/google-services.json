@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:67686346501:android:0bfbcd603f97659df7116c",
         "android_client_info": {
-          "package_name": "com.delivrex.delivrex"
+          "package_name": "com.deli.vrex"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "67686346501-3hl9p0okf91dghil28mvrr0sae2rmibn.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.delivrex.delivrex",
+            "package_name": "com.deli.vrex",
             "certificate_hash": "b6e047053859ec8524859dfe015b2b6820d5ad29"
           }
         },
@@ -25,7 +25,7 @@
           "client_id": "67686346501-3qeopv7aeetjib0p4aqqbl2l3gl3mdl8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.delivrex.delivrex",
+            "package_name": "com.deli.vrex",
             "certificate_hash": "75d2628bde7df7dc2c68a7ed0298ef270665373b"
           }
         },

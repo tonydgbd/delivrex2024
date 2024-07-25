@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/price_converter.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
-import 'package:flutter_restaurant/view/base/custom_directionality.dart';
-import 'package:flutter_restaurant/view/base/custom_divider.dart';
-import 'package:flutter_restaurant/view/screens/cart/cart_screen.dart';
+import 'package:delivrex/helper/price_converter.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_button.dart';
+import 'package:delivrex/view/base/custom_directionality.dart';
+import 'package:delivrex/view/base/custom_divider.dart';
+import 'package:delivrex/view/screens/cart/cart_screen.dart';
 import 'package:provider/provider.dart';
 
 class DeliveryFeeDialog extends StatelessWidget {

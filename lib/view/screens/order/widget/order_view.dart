@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/order_model.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/view/base/no_data_screen.dart';
-import 'package:flutter_restaurant/view/base/footer_view.dart';
-import 'package:flutter_restaurant/view/screens/order/widget/order_item.dart';
-import 'package:flutter_restaurant/view/screens/order/widget/order_shimmer.dart';
+import 'package:delivrex/data/model/response/order_model.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/view/base/no_data_screen.dart';
+import 'package:delivrex/view/base/footer_view.dart';
+import 'package:delivrex/view/screens/order/widget/order_item.dart';
+import 'package:delivrex/view/screens/order/widget/order_shimmer.dart';
 import 'package:provider/provider.dart';
 
 class OrderView extends StatelessWidget {

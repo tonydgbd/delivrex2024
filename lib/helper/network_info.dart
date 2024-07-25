@@ -1,6 +1,6 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
+import 'package:delivrex/localization/language_constrants.dart';
 
 class NetworkInfo {
   final Connectivity connectivity;

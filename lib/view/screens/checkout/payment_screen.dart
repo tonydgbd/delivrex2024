@@ -4,14 +4,14 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:flutter_restaurant/data/model/body/place_order_body.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/cart_provider.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/custom_app_bar.dart';
-import 'package:flutter_restaurant/view/screens/checkout/widget/cancel_dialog.dart';
+import 'package:delivrex/data/model/body/place_order_body.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/cart_provider.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/utill/app_constants.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/custom_app_bar.dart';
+import 'package:delivrex/view/screens/checkout/widget/cancel_dialog.dart';
 import 'package:provider/provider.dart';
 
 

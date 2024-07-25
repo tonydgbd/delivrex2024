@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/wallet_model.dart';
-import 'package:flutter_restaurant/data/repository/wallet_repo.dart';
-import 'package:flutter_restaurant/helper/api_checker.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/provider/profile_provider.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/view/screens/wallet/wallet_screen.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/wallet_model.dart';
+import 'package:delivrex/data/repository/wallet_repo.dart';
+import 'package:delivrex/helper/api_checker.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/provider/profile_provider.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/view/screens/wallet/wallet_screen.dart';
 import 'package:provider/provider.dart';
 
 List<TabButtonModel?> tabButtonList =  [

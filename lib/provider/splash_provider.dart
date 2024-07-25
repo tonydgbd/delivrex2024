@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/config_model.dart';
-import 'package:flutter_restaurant/data/repository/splash_repo.dart';
-import 'package:flutter_restaurant/helper/date_converter.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/provider/auth_provider.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/config_model.dart';
+import 'package:delivrex/data/repository/splash_repo.dart';
+import 'package:delivrex/helper/date_converter.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/provider/auth_provider.dart';
+import 'package:delivrex/utill/app_constants.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 
 import '../data/model/response/policy_model.dart';

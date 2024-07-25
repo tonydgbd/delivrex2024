@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/order_details_model.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/order_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
-import 'package:flutter_restaurant/view/screens/order/widget/order_cancel_dialog.dart';
-import 'package:flutter_restaurant/view/screens/rare_review/rate_review_screen.dart';
+import 'package:delivrex/data/model/response/order_details_model.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/order_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_button.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
+import 'package:delivrex/view/screens/order/widget/order_cancel_dialog.dart';
+import 'package:delivrex/view/screens/rare_review/rate_review_screen.dart';
 import 'package:provider/provider.dart';
 
 

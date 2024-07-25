@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/wallet_model.dart';
-import 'package:flutter_restaurant/helper/date_converter.dart';
-import 'package:flutter_restaurant/helper/price_converter.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_directionality.dart';
+import 'package:delivrex/data/model/response/wallet_model.dart';
+import 'package:delivrex/helper/date_converter.dart';
+import 'package:delivrex/helper/price_converter.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_directionality.dart';
 
 class HistoryItem extends StatelessWidget {
   final int index;

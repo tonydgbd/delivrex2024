@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:flutter_restaurant/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_restaurant/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
+import 'package:delivrex/data/datasource/remote/dio/dio_client.dart';
+import 'package:delivrex/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/utill/app_constants.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';

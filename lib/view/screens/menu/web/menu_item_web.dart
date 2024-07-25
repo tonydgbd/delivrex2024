@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/menu_model.dart';
+import 'package:delivrex/data/model/response/menu_model.dart';
 import 'package:provider/provider.dart';
 
 import '../../../../provider/auth_provider.dart';

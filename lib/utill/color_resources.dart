@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/provider/theme_provider.dart';
+import 'package:delivrex/provider/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 class ColorResources {

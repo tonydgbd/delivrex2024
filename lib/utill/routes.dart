@@ -1,8 +1,8 @@
 import 'dart:convert';
-import 'package:flutter_restaurant/data/model/response/address_model.dart';
-import 'package:flutter_restaurant/data/model/response/category_model.dart';
-import 'package:flutter_restaurant/data/model/response/order_model.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
+import 'package:delivrex/data/model/response/address_model.dart';
+import 'package:delivrex/data/model/response/category_model.dart';
+import 'package:delivrex/data/model/response/order_model.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
 
 class Routes {
 

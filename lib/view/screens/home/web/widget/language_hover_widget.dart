@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/language_model.dart';
-import 'package:flutter_restaurant/provider/language_provider.dart';
-import 'package:flutter_restaurant/provider/localization_provider.dart';
-import 'package:flutter_restaurant/view/screens/home/home_screen.dart';
+import 'package:delivrex/data/model/response/language_model.dart';
+import 'package:delivrex/provider/language_provider.dart';
+import 'package:delivrex/provider/localization_provider.dart';
+import 'package:delivrex/view/screens/home/home_screen.dart';
 import 'package:provider/provider.dart';
 import '../../../../../localization/language_constrants.dart';
 import '../../../../../utill/dimensions.dart';

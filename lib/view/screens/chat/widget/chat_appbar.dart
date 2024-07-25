@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/order_model.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/menu_bar_view.dart';
+import 'package:delivrex/data/model/response/order_model.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/menu_bar_view.dart';
 import 'package:provider/provider.dart';
 
 class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {

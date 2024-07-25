@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/date_converter.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/notification_provider.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/view/base/custom_app_bar.dart';
-import 'package:flutter_restaurant/view/base/footer_view.dart';
-import 'package:flutter_restaurant/view/base/no_data_screen.dart';
-import 'package:flutter_restaurant/view/base/web_app_bar.dart';
-import 'package:flutter_restaurant/view/screens/notification/widget/notification_dialog.dart';
+import 'package:delivrex/helper/date_converter.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/notification_provider.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/view/base/custom_app_bar.dart';
+import 'package:delivrex/view/base/footer_view.dart';
+import 'package:delivrex/view/base/no_data_screen.dart';
+import 'package:delivrex/view/base/web_app_bar.dart';
+import 'package:delivrex/view/screens/notification/widget/notification_dialog.dart';
 import 'package:provider/provider.dart';
 
 class NotificationScreen extends StatelessWidget {

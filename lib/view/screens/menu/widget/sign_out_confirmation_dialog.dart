@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/auth_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/auth_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/utill/styles.dart';
 import 'package:provider/provider.dart';
 
 class SignOutConfirmationDialog extends StatelessWidget {

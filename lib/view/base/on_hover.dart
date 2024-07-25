@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/provider/localization_provider.dart';
+import 'package:delivrex/provider/localization_provider.dart';
 import 'package:provider/provider.dart';
 
 class OnHover extends StatefulWidget {

@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:dio/dio.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_restaurant/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_restaurant/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/signup_model.dart';
-import 'package:flutter_restaurant/data/model/response/social_login_model.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
+import 'package:delivrex/data/datasource/remote/dio/dio_client.dart';
+import 'package:delivrex/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/signup_model.dart';
+import 'package:delivrex/data/model/response/social_login_model.dart';
+import 'package:delivrex/utill/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 

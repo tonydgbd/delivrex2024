@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_button.dart';
 
 class CancelDialog extends StatelessWidget {
   final int? orderID;

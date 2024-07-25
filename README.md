@@ -1,4 +1,4 @@
-# flutter_restaurant
+# delivrex
 
 A new Flutter restaurant application.
 

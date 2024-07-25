@@ -1,11 +1,11 @@
-import 'package:flutter_restaurant/data/model/response/address_model.dart';
+import 'package:delivrex/data/model/response/address_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/location_provider.dart';
-import 'package:flutter_restaurant/utill/color_resources.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/location_provider.dart';
+import 'package:delivrex/utill/color_resources.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 
 class DeleteConfirmationDialog extends StatelessWidget {

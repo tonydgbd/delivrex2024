@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/provider/language_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
+import 'package:delivrex/provider/language_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
 import 'package:flutter/services.dart';
 
 class CustomTextField extends StatefulWidget {

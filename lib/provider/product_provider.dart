@@ -1,16 +1,16 @@
 
-import 'package:flutter_restaurant/data/model/response/cart_model.dart';
-import 'package:flutter_restaurant/data/model/response/order_details_model.dart';
+import 'package:delivrex/data/model/response/cart_model.dart';
+import 'package:delivrex/data/model/response/order_details_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/body/review_body_model.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/data/model/response/response_model.dart';
-import 'package:flutter_restaurant/data/repository/product_repo.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/provider/cart_provider.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
+import 'package:delivrex/data/model/body/review_body_model.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/data/model/response/response_model.dart';
+import 'package:delivrex/data/repository/product_repo.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/provider/cart_provider.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 
 class ProductProvider extends ChangeNotifier {

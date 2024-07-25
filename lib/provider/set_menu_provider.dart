@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/data/repository/set_menu_repo.dart';
-import 'package:flutter_restaurant/helper/api_checker.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/data/repository/set_menu_repo.dart';
+import 'package:delivrex/helper/api_checker.dart';
 
 class SetMenuProvider extends ChangeNotifier {
   final SetMenuRepo? setMenuRepo;

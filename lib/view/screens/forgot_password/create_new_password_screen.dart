@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/auth_provider.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/utill/color_resources.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/custom_app_bar.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
-import 'package:flutter_restaurant/view/base/custom_text_field.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/auth_provider.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/utill/color_resources.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/custom_app_bar.dart';
+import 'package:delivrex/view/base/custom_button.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
+import 'package:delivrex/view/base/custom_text_field.dart';
 import 'package:provider/provider.dart';
 
 class CreateNewPasswordScreen extends StatelessWidget {

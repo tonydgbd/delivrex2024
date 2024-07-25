@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/category_model.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/data/repository/category_repo.dart';
-import 'package:flutter_restaurant/helper/api_checker.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/category_model.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/data/repository/category_repo.dart';
+import 'package:delivrex/helper/api_checker.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
 
 class CategoryProvider extends ChangeNotifier {
   final CategoryRepo? categoryRepo;

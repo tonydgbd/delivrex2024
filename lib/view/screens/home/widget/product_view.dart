@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/helper/product_type.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/product_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
-import 'package:flutter_restaurant/view/base/product_shimmer.dart';
-import 'package:flutter_restaurant/view/base/product_widget.dart';
-import 'package:flutter_restaurant/view/screens/home/web/widget/product_web_card_shimmer.dart';
-import 'package:flutter_restaurant/view/screens/home/web/widget/product_widget_web.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/helper/product_type.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/product_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/styles.dart';
+import 'package:delivrex/view/base/product_shimmer.dart';
+import 'package:delivrex/view/base/product_widget.dart';
+import 'package:delivrex/view/screens/home/web/widget/product_web_card_shimmer.dart';
+import 'package:delivrex/view/screens/home/web/widget/product_widget_web.dart';
 import 'package:provider/provider.dart';
 
 class ProductView extends StatelessWidget {

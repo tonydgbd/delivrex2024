@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/product_model.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/auth_provider.dart';
-import 'package:flutter_restaurant/provider/wishlist_provider.dart';
+import 'package:delivrex/data/model/response/product_model.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/auth_provider.dart';
+import 'package:delivrex/provider/wishlist_provider.dart';
 import 'package:provider/provider.dart';
 
 import 'custom_snackbar.dart';

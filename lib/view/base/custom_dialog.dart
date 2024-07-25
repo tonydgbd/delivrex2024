@@ -1,9 +1,9 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/utill/styles.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/utill/styles.dart';
 
 import '../../utill/dimensions.dart';
 

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/language_model.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/category_provider.dart';
-import 'package:flutter_restaurant/provider/language_provider.dart';
-import 'package:flutter_restaurant/provider/localization_provider.dart';
-import 'package:flutter_restaurant/provider/onboarding_provider.dart';
-import 'package:flutter_restaurant/provider/product_provider.dart';
-import 'package:flutter_restaurant/utill/app_constants.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/custom_button.dart';
-import 'package:flutter_restaurant/view/base/custom_snackbar.dart';
-import 'package:flutter_restaurant/view/base/web_app_bar.dart';
-import 'package:flutter_restaurant/view/screens/language/widget/search_widget.dart';
+import 'package:delivrex/data/model/response/language_model.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/category_provider.dart';
+import 'package:delivrex/provider/language_provider.dart';
+import 'package:delivrex/provider/localization_provider.dart';
+import 'package:delivrex/provider/onboarding_provider.dart';
+import 'package:delivrex/provider/product_provider.dart';
+import 'package:delivrex/utill/app_constants.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/custom_button.dart';
+import 'package:delivrex/view/base/custom_snackbar.dart';
+import 'package:delivrex/view/base/web_app_bar.dart';
+import 'package:delivrex/view/screens/language/widget/search_widget.dart';
 import 'package:provider/provider.dart';
 
 class ChooseLanguageScreen extends StatelessWidget {

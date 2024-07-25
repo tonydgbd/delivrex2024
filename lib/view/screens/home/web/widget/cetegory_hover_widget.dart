@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/category_model.dart';
-import 'package:flutter_restaurant/main.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/on_hover.dart';
+import 'package:delivrex/data/model/response/category_model.dart';
+import 'package:delivrex/main.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/on_hover.dart';
 
 class CategoryHoverWidget extends StatelessWidget {
   final List<CategoryModel>? categoryList;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/provider/splash_provider.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/base/menu_bar_view.dart';
+import 'package:delivrex/provider/splash_provider.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/base/menu_bar_view.dart';
 import 'package:provider/provider.dart';
 
 class MainAppBars extends StatelessWidget implements PreferredSizeWidget {

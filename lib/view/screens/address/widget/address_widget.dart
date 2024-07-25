@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/model/response/address_model.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/location_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/utill/images.dart';
-import 'package:flutter_restaurant/utill/routes.dart';
-import 'package:flutter_restaurant/view/screens/address/widget/delete_confirmation_dialog.dart';
+import 'package:delivrex/data/model/response/address_model.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/location_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/utill/images.dart';
+import 'package:delivrex/utill/routes.dart';
+import 'package:delivrex/view/screens/address/widget/delete_confirmation_dialog.dart';
 import 'package:provider/provider.dart';
 
 class AddressWidget extends StatelessWidget {

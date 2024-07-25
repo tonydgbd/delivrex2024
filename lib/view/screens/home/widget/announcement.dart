@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
-import 'package:flutter_restaurant/view/screens/home/widget/marque_text.dart';
+import 'package:delivrex/utill/dimensions.dart';
+import 'package:delivrex/view/screens/home/widget/marque_text.dart';
 
 class AnnouncementView extends StatelessWidget {
   final String? announcement;

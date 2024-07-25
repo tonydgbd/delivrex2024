@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/provider/location_provider.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/provider/location_provider.dart';
+import 'package:delivrex/utill/dimensions.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/places.dart';

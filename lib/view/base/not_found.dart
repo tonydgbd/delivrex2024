@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/helper/responsive_helper.dart';
-import 'package:flutter_restaurant/view/base/footer_view.dart';
-import 'package:flutter_restaurant/view/base/web_app_bar.dart';
+import 'package:delivrex/helper/responsive_helper.dart';
+import 'package:delivrex/view/base/footer_view.dart';
+import 'package:delivrex/view/base/web_app_bar.dart';
 
 class NotFound extends StatelessWidget {
   const NotFound({Key? key}) : super(key: key);

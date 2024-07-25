@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_restaurant/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_restaurant/data/model/response/base/api_response.dart';
-import 'package:flutter_restaurant/data/model/response/onboarding_model.dart';
-import 'package:flutter_restaurant/localization/language_constrants.dart';
-import 'package:flutter_restaurant/utill/images.dart';
+import 'package:delivrex/data/datasource/remote/dio/dio_client.dart';
+import 'package:delivrex/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:delivrex/data/model/response/base/api_response.dart';
+import 'package:delivrex/data/model/response/onboarding_model.dart';
+import 'package:delivrex/localization/language_constrants.dart';
+import 'package:delivrex/utill/images.dart';
 
 class OnBoardingRepo {
   final DioClient? dioClient;

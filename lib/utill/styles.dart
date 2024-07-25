@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_restaurant/utill/dimensions.dart';
+import 'package:delivrex/utill/dimensions.dart';
 
 const rubikRegular = TextStyle(
   fontFamily: 'Rubik',
