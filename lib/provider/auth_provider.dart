@@ -16,6 +16,7 @@ import 'package:flutter_restaurant/main.dart';
 import 'package:flutter_restaurant/provider/profile_provider.dart';
 import 'package:flutter_restaurant/provider/splash_provider.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:onesignal_flutter/onesignal_flutter.dart';
 import 'package:provider/provider.dart';
 
 import '../helper/api_checker.dart';
@@ -55,6 +56,7 @@ class AuthProvider with ChangeNotifier {
 
       await login(signUpModel.email, signUpModel.password);
       responseModel = ResponseModel(true, 'successful');
+      // Pass in email provided by customer
     } else {
 
       _registrationErrorMessage = ApiChecker.getError(apiResponse).errors![0].message;

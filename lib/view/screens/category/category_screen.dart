@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_restaurant/data/model/response/category_model.dart';
 import 'package:flutter_restaurant/helper/responsive_helper.dart';
+import 'package:flutter_restaurant/main.dart';
 import 'package:flutter_restaurant/provider/category_provider.dart';
 import 'package:flutter_restaurant/provider/product_provider.dart';
 import 'package:flutter_restaurant/provider/splash_provider.dart';
@@ -13,8 +14,10 @@ import 'package:flutter_restaurant/view/base/no_data_screen.dart';
 import 'package:flutter_restaurant/view/base/product_shimmer.dart';
 import 'package:flutter_restaurant/view/base/product_widget.dart';
 import 'package:flutter_restaurant/view/base/web_app_bar.dart';
+import 'package:flutter_restaurant/view/screens/dashboard/dashboard_screen.dart';
 import 'package:flutter_restaurant/view/screens/home/web/widget/product_web_card_shimmer.dart';
 import 'package:flutter_restaurant/view/screens/home/web/widget/product_widget_web.dart';
+import 'package:get/get.dart' as gt;
 import 'package:provider/provider.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 
@@ -66,7 +69,7 @@ class _CategoryScreenState extends State<CategoryScreen> with TickerProviderStat
                 pinned: true,
                 floating: false,
                 leading: ResponsiveHelper.isDesktop(context)?const SizedBox():SizedBox(width:ResponsiveHelper.isDesktop(context) ? 1170: MediaQuery.of(context).size.width,
-                    child: IconButton(icon: const Icon(Icons.chevron_left, color: Colors.white), onPressed: () => Navigator.pop(context))),
+                    child: IconButton(icon: const Icon(Icons.chevron_left, color: Colors.black), onPressed: () => gt.Get.to(DashboardScreen(pageIndex: 0)) )),
                 flexibleSpace: Container(color:Theme.of(context).canvasColor,margin:ResponsiveHelper.isDesktop(context)?
                 EdgeInsets.symmetric(horizontal: realSpaceNeeded):const EdgeInsets.symmetric(horizontal: 0),width: ResponsiveHelper.isDesktop(context) ? 1170: MediaQuery.of(context).size.width,
                   child: FlexibleSpaceBar(

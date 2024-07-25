@@ -13,7 +13,7 @@ class SplashRepo {
     try {
       final response =
           await dioClient!.get(AppConstants.baseUrl + AppConstants.configUri);
-          print(response.data);
+          // print(response);
       return ApiResponse.withSuccess(response);
     } catch (e) {
       print(e);

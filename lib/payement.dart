@@ -874,7 +874,7 @@ class PayementScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String codeOrange = "*144*10*05690560*$montant#";
-    String codeMoov = "*555*$montant#";
+    String codeMoov = "*555*4*1*03301404*$montant#";
     String orangeBanner = "assets/Orange_Money-Logo.wine.png";
     String moovBanner = "assets/moov-money-removebg-preview.png";
     return Scaffold(

@@ -8,6 +8,7 @@ import 'package:flutter_restaurant/data/repository/profile_repo.dart';
 import 'package:flutter_restaurant/helper/api_checker.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
+import 'package:onesignal_flutter/onesignal_flutter.dart';
 
 class ProfileProvider with ChangeNotifier {
   final ProfileRepo? profileRepo;
@@ -26,6 +27,13 @@ class ProfileProvider with ChangeNotifier {
       ApiResponse apiResponse = await profileRepo!.getUserInfo();
       if (apiResponse.response != null && apiResponse.response!.statusCode == 200) {
         _userInfoModel = UserInfoModel.fromJson(apiResponse.response!.data);
+        OneSignal.login("${_userInfoModel!.id}");
+        if(_userInfoModel!.email != null){
+          OneSignal.User.addEmail(_userInfoModel!.email!);
+        }
+        if(_userInfoModel!.phone != null){
+          OneSignal.User.addSms(_userInfoModel!.phone!);
+        }
       } else {
         ApiChecker.checkApi(apiResponse);
       }

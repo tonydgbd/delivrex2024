@@ -48,7 +48,7 @@ import 'package:url_strategy/url_strategy.dart';
 import 'di_container.dart' as di;
 import 'provider/time_provider.dart';
 import 'view/base/cookies_view.dart';
-
+import 'package:onesignal_flutter/onesignal_flutter.dart';
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
 
@@ -90,6 +90,12 @@ Future<void> main() async {
       version: "v13.0",
     );
   }
+  OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
+
+OneSignal.initialize("14f53d13-3275-4335-b8f6-557a96bb5aae");
+
+// The promptForPushNotificationsWithUserResponse function will show the iOS or Android push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission
+OneSignal.Notifications.requestPermission(true);
   await di.init();
   int? orderID;
   try {

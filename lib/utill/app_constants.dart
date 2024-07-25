@@ -4,9 +4,9 @@ import 'package:flutter_restaurant/utill/images.dart';
 
 class AppConstants {
   static const String appName = 'Delivrex';
-  static const String appVersion = '10.0';
+  static const String appVersion = '11.0';
   static const AppMode appMode = AppMode.release;
-  static const String baseUrl = 'https://85cccf0da5.lb3.amezmo.co';
+  static const String baseUrl = 'http://delivrex.futurix.xyz';
   static const String categoryUri = '/api/v1/categories';
   static const String bannerUri = '/api/v1/banners';
   static const String latestProductUri = '/api/v1/products/latest';
